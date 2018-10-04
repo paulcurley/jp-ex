@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View Trades render 1`] = `
+Object {
+  "props": Object {
+    "trades": Array [
+      Object {
+        "noOfShares": 54,
+        "price": 432,
+        "stockSymbol": "ALC",
+      },
+    ],
+  },
+  "wrapper": <table>
+    <thead>
+      <tr>
+        <th>
+          Stock Symbol
+        </th>
+        <th>
+          Price
+        </th>
+        <th>
+          Number of Shares 
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        key="0"
+      >
+        <td>
+          ALC
+        </td>
+        <td>
+          432
+        </td>
+        <td>
+          54
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+}
+`;

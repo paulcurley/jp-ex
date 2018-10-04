@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`trade Reducer ADD_TRADE should update mode 1`] = `
+Array [
+  Object {
+    "noOfShares": 543,
+    "price": 43543,
+    "stockSymbol": "ALC",
+    "timestamp": "11111111",
+  },
+]
+`;

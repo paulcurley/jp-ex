@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`trade Selector getAllTrades 1`] = `
+Array [
+  Object {
+    "noOfShares": 342,
+    "price": 888,
+    "stockSymbol": "VLC",
+    "timestamp": 1538657799125,
+  },
+  Object {
+    "noOfShares": 543,
+    "price": 43543,
+    "stockSymbol": "ALC",
+    "timestamp": 1538657799125,
+  },
+]
+`;

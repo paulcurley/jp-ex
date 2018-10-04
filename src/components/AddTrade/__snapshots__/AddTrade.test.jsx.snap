@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add Trade renders 1`] = `
+Object {
+  "props": Object {
+    "handleAddTrade": [MockFunction],
+    "handleBack": [MockFunction],
+  },
+  "wrapper": <form
+    onSubmit={[Function]}
+  >
+    <label>
+      Stock Symbol:
+      <input
+        name="stockSymbol"
+        onChange={[Function]}
+        required={true}
+        type="text"
+      />
+    </label>
+    <label>
+      Price:
+      <input
+        name="price"
+        onChange={[Function]}
+        required={true}
+        type="number"
+      />
+    </label>
+    <label>
+      Number of shares:
+      <input
+        name="noOfShares"
+        onChange={[Function]}
+        required={true}
+        type="number"
+      />
+    </label>
+    <input
+      type="submit"
+      value="Submit"
+    />
+  </form>,
+}
+`;
